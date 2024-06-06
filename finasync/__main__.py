@@ -10,6 +10,7 @@ Usage:
     finasync realt other-detailed
     finasync realt other-detailed delete
 """
+
 import json
 import sys
 import os
@@ -21,9 +22,9 @@ from finary_uapi.signin import signin
 from finary_uapi.user_me import get_user_me
 
 from .realt import (
-    sync_realt_rent, 
-    delete_all_realt_rentals_finary, 
-    sync_realtportfolio_other, 
+    sync_realt_rent,
+    delete_all_realt_rentals_finary,
+    sync_realtportfolio_other,
     delete_realtportfolio_other_finary,
     sync_realtproperties_other,
     delete_realtproperties_other_finary,
@@ -34,7 +35,7 @@ def main() -> int:  # pragma: nocover
     """Main entry point."""
     import logging
 
-    logging.basicConfig(level=logging.INFO)
+    logging.basicConfig(level=logging.DEBUG)
 
     # load secrets from my_info.json to os.env
     myInfo_file = open("my_info.json", "r")
@@ -72,7 +73,9 @@ def main() -> int:  # pragma: nocover
                 if args["delete"]:
                     result = delete_realtproperties_other_finary(session)
                 else:
-                    result = sync_realtproperties_other(session, os.environ["MYREALT_WALLET_ADDRESS"])
+                    result = sync_realtproperties_other(
+                        session, os.environ["MYREALT_WALLET_ADDRESS"]
+                    )
     if result:
         print(json.dumps(result, indent=4))
 

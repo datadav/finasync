@@ -1,6 +1,13 @@
-GNOSIS_API_TOKENLIST_URI = (
-    "https://blockscout.com/xdai/mainnet/api?module=account&action=tokenlist&address="
-)
+from pydantic_settings import BaseSettings
+
+
+class Settings(BaseSettings):
+    WALLET_ADDRESS: str = ""
+
+
+settings = Settings()
+
+GNOSIS_API_TOKENLIST_URI = f"https://gnosis.blockscout.com/api/v2/addresses/{settings.WALLET_ADDRESS}/token-balances"
 REALT_API_TOKENLIST_URI = "https://api.realt.community/v1/token"
 REALT_OFFLINE_TOKENS_LIST = "RealT_OfflineTokensList.json"
 REALT_OFFLINE_TOKENS_LIST_FREE = "RealT_OfflineTokensList_Free.json"
