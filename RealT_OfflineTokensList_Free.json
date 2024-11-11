@@ -1,6 +1,6 @@
 {
     "info": {
-        "last_sync": "1717691044.791698"
+        "last_sync": "1727263516.656506"
     },
     "data": {
         "0xe5f7ef61443fc36ae040650aa585b0395aef77c8": {
@@ -601,7 +601,7 @@
         "0x21f1af3e751317a2f7de7df31d5d092e6a907bde": {
             "fullName": "18276 Appoline St, Detroit, MI 48235",
             "shortName": "18276 Appoline",
-            "tokenPrice": 54.23,
+            "tokenPrice": 61.06,
             "currency": "USD",
             "productType": "real_estate_rental"
         },
@@ -4032,6 +4032,377 @@
             "fullName": "Playa Caracol 303300 E, Punta Chame, Panama Oeste, Panama",
             "shortName": "Playa Caracol 303300 E",
             "tokenPrice": 50.63,
+            "currency": "USD",
+            "productType": "real_estate_rental"
+        },
+        "0x108f15a6cac5bddf919af07928faa0b7168feff8": {
+            "fullName": "LOAN 18 Bristol Villa Buenaventura, El Chiru, Cocle, Panama",
+            "shortName": "LOAN 18 Bristol Villa",
+            "tokenPrice": 50,
+            "currency": "USD",
+            "productType": "loan_income"
+        },
+        "0x35063b6bee680cd7edb9184c974c94b39607c450": {
+            "fullName": "12111 Kentucky St, Detroit, MI 48204",
+            "shortName": "12111 Kentucky",
+            "tokenPrice": 51.07,
+            "currency": "USD",
+            "productType": "real_estate_rental"
+        },
+        "0x30668ab855dee56a62479b0f22e83c54bd068446": {
+            "fullName": "3244 Pasadena St, Detroit, MI 48238",
+            "shortName": "3244 Pasadena",
+            "tokenPrice": 50.07,
+            "currency": "USD",
+            "productType": "real_estate_rental"
+        },
+        "0x4e4bbaf1b65b230581d0b987e665799594420643": {
+            "fullName": "14654 Hubbell St, Detroit, MI 48227",
+            "shortName": "14654 Hubbell",
+            "tokenPrice": 50.48,
+            "currency": "USD",
+            "productType": "real_estate_rental"
+        },
+        "0x1d872098bab315ddf6630b3db2f8330221d498c0": {
+            "fullName": "8050 Sirron St, Detroit, MI 48234",
+            "shortName": "8050 Sirron",
+            "tokenPrice": 50.85,
+            "currency": "USD",
+            "productType": "real_estate_rental"
+        },
+        "0xa83cbd26964ea953f86c741871a1ab2a256cb82d": {
+            "fullName": "9311 Bedford St, Detroit, MI 48224",
+            "shortName": "9311 Bedford",
+            "tokenPrice": 50.15,
+            "currency": "USD",
+            "productType": "real_estate_rental"
+        },
+        "0xd8b64f80482b8928e99e082f61427ed21a3b9706": {
+            "fullName": "12605 Payton St, Detroit, MI 48224",
+            "shortName": "12605 Payton",
+            "tokenPrice": 50.15,
+            "currency": "USD",
+            "productType": "real_estate_rental"
+        },
+        "0x0dca7cd3f63b69bbe55364b42fb6c3b21202d06f": {
+            "fullName": "11924 Payton St, Detroit, MI 48224",
+            "shortName": "11924 Payton",
+            "tokenPrice": 50.3,
+            "currency": "USD",
+            "productType": "real_estate_rental"
+        },
+        "0x944823fbffdcf71b78e96ee7f37f62392de057f8": {
+            "fullName": "14574 Strathmoor St, Detroit, MI 48227",
+            "shortName": "14574 Strathmoor",
+            "tokenPrice": 50.58,
+            "currency": "USD",
+            "productType": "real_estate_rental"
+        },
+        "0x14be8b4b4bf1ea9d18bd04c4063a0987c702e204": {
+            "fullName": "LOAN La Maison Fendi Apt 28D, Panama City, Panama",
+            "shortName": "LOAN Maison Fendi Apt 28D",
+            "tokenPrice": 50,
+            "currency": "USD",
+            "productType": "loan_income"
+        },
+        "0x2b318bad73d4e44827cce2044666b595a14be8b1": {
+            "fullName": "Playa Caracol Cottage 10, Punta Chame, Panama Oeste, Panama",
+            "shortName": "Playa Caracol Cottage 10",
+            "tokenPrice": 50.24,
+            "currency": "USD",
+            "productType": "real_estate_rental"
+        },
+        "0x35a40743b37302de7563e1367597a18c0576eecf": {
+            "fullName": "16519 Bringard St, Detroit, MI 48205",
+            "shortName": "16519 Bringard",
+            "tokenPrice": 50.01,
+            "currency": "USD",
+            "productType": "real_estate_rental"
+        },
+        "0x70b326d2de7bebc8d09adc6bbf01d95067ff130d": {
+            "fullName": "4350 Chatsworth St, Detroit, MI 48224",
+            "shortName": "4350 Chatsworth",
+            "tokenPrice": 50.93,
+            "currency": "USD",
+            "productType": "real_estate_rental"
+        },
+        "0xf6e2736f28756b8d5918e0adf38842edb2e4971d": {
+            "fullName": "10331 Greensboro St, Detroit, MI 48224",
+            "shortName": "10331 Greensboro",
+            "tokenPrice": 50.26,
+            "currency": "USD",
+            "productType": "real_estate_rental"
+        },
+        "0x6a94404f978a2ad1f7bf5f2a4fbb30f904b6e8ee": {
+            "fullName": "18848 Bloom St, Detroit, MI 48234",
+            "shortName": "18848 Bloom",
+            "tokenPrice": 50.37,
+            "currency": "USD",
+            "productType": "real_estate_rental"
+        },
+        "0x64e149cef5eff91d111621a0ab36e48f41046f38": {
+            "fullName": "9657 Manor St, Detroit, MI 48204",
+            "shortName": "9657 Manor",
+            "tokenPrice": 50.12,
+            "currency": "USD",
+            "productType": "real_estate_rental"
+        },
+        "0x8a7cc65bd33641bd349b8a6dea34e2b73a0919b0": {
+            "fullName": "12700 Christine Ave, Garfield Heights, OH 44105",
+            "shortName": "12700 Christine",
+            "tokenPrice": 50.97,
+            "currency": "USD",
+            "productType": "real_estate_rental"
+        },
+        "0x0da81e9b313e73cf295363c14e2ce31ec84ab3d0": {
+            "fullName": "6269 Turney Rd, Garfield Heights, OH 44125",
+            "shortName": "6269 Turney",
+            "tokenPrice": 50.68,
+            "currency": "USD",
+            "productType": "real_estate_rental"
+        },
+        "0x4767be61cf49c80de2ba4d9c5402f95441c3b200": {
+            "fullName": "22601 Ivan Ave, Euclid, OH 44123",
+            "shortName": "22601 Ivan",
+            "tokenPrice": 50.15,
+            "currency": "USD",
+            "productType": "real_estate_rental"
+        },
+        "0x4a979228f86d7d9722c29eb7615afe4a3966358a": {
+            "fullName": "4515 E 139th St, Garfield Heights, OH 44105",
+            "shortName": "4515 E 139th",
+            "tokenPrice": 50.21,
+            "currency": "USD",
+            "productType": "real_estate_rental"
+        },
+        "0x5ca198c20ad54d2c70c0adc3b0763c539004245e": {
+            "fullName": "5154 Turney Rd, Garfield Heights, OH 44125",
+            "shortName": "5154 Turney",
+            "tokenPrice": 50.14,
+            "currency": "USD",
+            "productType": "real_estate_rental"
+        },
+        "0xdbc4e32037d5d8bbeb975006467e8b40737c77b0": {
+            "fullName": "18303 Maple Heights Blvd, Maple Heights, OH 44137",
+            "shortName": "18303 Maple Heights",
+            "tokenPrice": 50.34,
+            "currency": "USD",
+            "productType": "real_estate_rental"
+        },
+        "0x10dfe9495810a7c8ff577647dab523503477402f": {
+            "fullName": "3966 Lancaster Rd, South Euclid, OH 44121",
+            "shortName": "3966 Lancaster",
+            "tokenPrice": 50.57,
+            "currency": "USD",
+            "productType": "real_estate_rental"
+        },
+        "0xab322771434fdea535c398fe9001c85c550dca1f": {
+            "fullName": "3469 Martin Luther King Jr Dr, Cleveland, OH 44104",
+            "shortName": "3469 Martin Luther King Jr",
+            "tokenPrice": 50.3,
+            "currency": "USD",
+            "productType": "real_estate_rental"
+        },
+        "0x7068a5d8b3dd6a3033b8e9b9af757be55df85715": {
+            "fullName": "16811 Glendale Ave, Cleveland, OH 44128",
+            "shortName": "16811 Glendale",
+            "tokenPrice": 50.43,
+            "currency": "USD",
+            "productType": "real_estate_rental"
+        },
+        "0x0643ffb30add44ef5c74996ad57a03a2244b6f28": {
+            "fullName": "12802 Ferris Ave, Cleveland, OH 44105",
+            "shortName": "12802 Ferris",
+            "tokenPrice": 50.05,
+            "currency": "USD",
+            "productType": "real_estate_rental"
+        },
+        "0xdf1dba31476d49404b4de9c2b7b4319f121b926f": {
+            "fullName": "12905 Lenacrave Ave, Cleveland, OH 44105",
+            "shortName": "12905 Lenacrave",
+            "tokenPrice": 49.73,
+            "currency": "USD",
+            "productType": "real_estate_rental"
+        },
+        "0x51b3486b85c9607f9d059b5cad3d731e4f8458f3": {
+            "fullName": "10008 Elizabeth Ave, Cleveland, OH 44105",
+            "shortName": "10008 Elizabeth",
+            "tokenPrice": 50.35,
+            "currency": "USD",
+            "productType": "real_estate_rental"
+        },
+        "0xd7666cb7f9092638913229d09ef8c6084ab50555": {
+            "fullName": "350 E 74th St, Chicago, IL 60619",
+            "shortName": "350 E 74th",
+            "tokenPrice": 50.54,
+            "currency": "USD",
+            "productType": "real_estate_rental"
+        },
+        "0xcea93e3bb140fba0d359bc51e3044843aecd7e6e": {
+            "fullName": "10905 Eliot Ave, Cleveland, OH 44104",
+            "shortName": "10905 Eliot",
+            "tokenPrice": 50.05,
+            "currency": "USD",
+            "productType": "real_estate_rental"
+        },
+        "0xdacff6001d6fb5aca30a683036d114cee9379077": {
+            "fullName": "12901 Lenacrave Ave, Cleveland, OH 44105",
+            "shortName": "12901 Lenacrave",
+            "tokenPrice": 50.3,
+            "currency": "USD",
+            "productType": "real_estate_rental"
+        },
+        "0xe1959cb6d73c604305fb05f9bb227ecb12616ed7": {
+            "fullName": "11712 Dove Ave, Cleveland, OH 44105",
+            "shortName": "11712 Dove",
+            "tokenPrice": 50.93,
+            "currency": "USD",
+            "productType": "real_estate_rental"
+        },
+        "0xb0d84f5ae30c5a07273fc98ad16682c0d0d97e2f": {
+            "fullName": "1268 E 145th St, Cleveland, OH 44112",
+            "shortName": "1268 E 145th",
+            "tokenPrice": 50.4,
+            "currency": "USD",
+            "productType": "real_estate_rental"
+        },
+        "0xb25dcc59e892cfe2f120b75a6fa17cd67bb4d3cd": {
+            "fullName": "677 E 118th St, Cleveland, OH 44108",
+            "shortName": "677 E 118th",
+            "tokenPrice": 50.07,
+            "currency": "USD",
+            "productType": "real_estate_rental"
+        },
+        "0x3778fa5048b698de27149a6adddca9c935f14e34": {
+            "fullName": "PH Pinoalto A002, Boquete, Chiriqui, Panama",
+            "shortName": "PH Pinoalto A002",
+            "tokenPrice": 50.24,
+            "currency": "USD",
+            "productType": "real_estate_rental"
+        },
+        "0x50b4d76ae0f88cf2f3accdfd2a76cbe35172bc8e": {
+            "fullName": "PH Pinoalto A003, Boquete, Chiriqui, Panama",
+            "shortName": "PH Pinoalto A003",
+            "tokenPrice": 50.24,
+            "currency": "USD",
+            "productType": "real_estate_rental"
+        },
+        "0xe8b0dcf028983e16b035056e34aeae15292645ff": {
+            "fullName": "19184 Hasse St, Detroit, MI 48234",
+            "shortName": "19184 Hasse",
+            "tokenPrice": 50.44,
+            "currency": "USD",
+            "productType": "real_estate_rental"
+        },
+        "0x4a6cd874c3da159f88be3c7351bde37cee6b4863": {
+            "fullName": "Vervana T1, Playa Venao, Los Santos, Panama",
+            "shortName": "Vervana T1",
+            "tokenPrice": 50.18,
+            "currency": "USD",
+            "productType": "real_estate_rental"
+        },
+        "0x3b734947a4ec3f42b354d5c352490e00828872f0": {
+            "fullName": "10052 Gold Finch Run, Magnolia, TX 77354",
+            "shortName": "10052 Gold Finch",
+            "tokenPrice": 50.93,
+            "currency": "USD",
+            "productType": "real_estate_rental"
+        },
+        "0xdbd2a18f44a95a1c86c8472669baf02b945227de": {
+            "fullName": "4147 E 99th St, Cleveland, OH 44105",
+            "shortName": "4147 E 99th",
+            "tokenPrice": 51.45,
+            "currency": "USD",
+            "productType": "real_estate_rental"
+        },
+        "0x251abd48443cd84b87b92d26dc09d671773959eb": {
+            "fullName": "3987 E 153rd St, Cleveland, OH 44128",
+            "shortName": "3987 E 153rd",
+            "tokenPrice": 51.49,
+            "currency": "USD",
+            "productType": "real_estate_rental"
+        },
+        "0x8b7d956b2c3165eb3bf338ca221f152ba772b3ad": {
+            "fullName": "351 E 119th Pl, Chicago, IL 60628",
+            "shortName": "351 E 119th",
+            "tokenPrice": 51.75,
+            "currency": "USD",
+            "productType": "real_estate_rental"
+        },
+        "0x3db7a17a55d345236a59b685ebe65c11a1ce8f65": {
+            "fullName": "12354 S Normal Ave, Chicago, IL 60628",
+            "shortName": "12354 S Normal",
+            "tokenPrice": 51.43,
+            "currency": "USD",
+            "productType": "real_estate_rental"
+        },
+        "0x33ac7d47e7a9a219f9a0d3784bc21f6ff25e6efd": {
+            "fullName": "1531 E 173rd St, Cleveland, OH 44110",
+            "shortName": "1531 E 173rd",
+            "tokenPrice": 50.37,
+            "currency": "USD",
+            "productType": "real_estate_rental"
+        },
+        "0xfbc42781ec26a4c6bb1a48dfb7815b825e44a140": {
+            "fullName": "3387 E 106th St, Cleveland, OH 44104",
+            "shortName": "3387 E 106th",
+            "tokenPrice": 50.06,
+            "currency": "USD",
+            "productType": "real_estate_rental"
+        },
+        "0x1c7b78f54485a0ea4d67a2b4856af4cd39f11d99": {
+            "fullName": "963 Paxton Rd, Cleveland, OH 44108",
+            "shortName": "963 Paxton",
+            "tokenPrice": 50.69,
+            "currency": "USD",
+            "productType": "real_estate_rental"
+        },
+        "0x97c1c41bc96709611f90798bdc23f31405048dd7": {
+            "fullName": "17160 Runyon St, Detroit, MI 48234",
+            "shortName": "17160 Runyon",
+            "tokenPrice": 50.4,
+            "currency": "USD",
+            "productType": "real_estate_rental"
+        },
+        "0xf1f247098d935d0cc19ba9fea2986b89a20366b5": {
+            "fullName": "9140 Bedford St, Detroit, MI 48224",
+            "shortName": "9140 Bedford",
+            "tokenPrice": 50.88,
+            "currency": "USD",
+            "productType": "real_estate_rental"
+        },
+        "0x1da9ddc8407781d712a77def51c40c26a1f72600": {
+            "fullName": "3883 E 177th St, Cleveland, OH 44128",
+            "shortName": "3883 E 177th",
+            "tokenPrice": 50.44,
+            "currency": "USD",
+            "productType": "real_estate_rental"
+        },
+        "0xd10f30d8cbca2f5d4d89878111130cb93bd338ea": {
+            "fullName": "11410 Avon Ave, Cleveland, OH 44105",
+            "shortName": "11410 Avon",
+            "tokenPrice": 50.93,
+            "currency": "USD",
+            "productType": "real_estate_rental"
+        },
+        "0xc80113af48d272827a8bfb0b68c8b7b120d948c6": {
+            "fullName": "14892 Wildemere St, Detroit, MI 48238",
+            "shortName": "14892 Wildemere",
+            "tokenPrice": 50.76,
+            "currency": "USD",
+            "productType": "real_estate_rental"
+        },
+        "0x8e03c1e3dc348bb3af4df618bdd1b2eec0b2ca45": {
+            "fullName": "2042 Bridge Cross Ln, Houston, TX 77067",
+            "shortName": "2042 Bridge Cross",
+            "tokenPrice": 50.05,
+            "currency": "USD",
+            "productType": "real_estate_rental"
+        },
+        "0x563d4e689b357f4d2178b5a9a36df98e2674c157": {
+            "fullName": "110 Churchill Blvd, San Angelo, TX 76903",
+            "shortName": "110 Churchill",
+            "tokenPrice": 50.44,
             "currency": "USD",
             "productType": "real_estate_rental"
         }

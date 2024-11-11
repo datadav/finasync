@@ -7,7 +7,7 @@ readme = "README.md"
 packages = [{include = "finasync"}]
 
 [tool.poetry.dependencies]
-python = "^3.10"
+python = "^3.9.9"
 docopt = "^0.6.2"
 requests = "^2.30.0"
 finary-uapi = { git = "https://github.com/lasconic/finary_uapi.git", branch= "switch_httpx" }

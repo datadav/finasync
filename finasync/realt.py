@@ -53,9 +53,7 @@ def get_realt_token_details(realt_token_contractAdress):
             }
 
     # Update offlineTokensList from RealT API only if more than 1 week old
-    if float(RealT_OfflineTokensList["info"]["last_sync"]) < datetime.timestamp(
-        Now_Time - timedelta(weeks=1)
-    ):
+    if float(RealT_OfflineTokensList["info"]["last_sync"]) < datetime.timestamp(Now_Time - timedelta(days=1)):
         MyRealT_API_Header = {
             "Accept": "*/*",
             "X-AUTH-REALT-TOKEN": os.environ["MYREALT_API_KEY"],
@@ -138,9 +136,12 @@ def get_realt_rentals_finary(session: requests.Session):
 
 
 def get_realt_rentals_blockchain(wallet_address):
-    myWallet = json.loads(requests.get(GNOSIS_API_TOKENLIST_URI).text)
+    url = GNOSIS_API_TOKENLIST_URI
+    logging.debug(url)
+    myWallet = json.loads(requests.get(url).text)
     myRealT_rentals = {}
     logging.debug("My wallet details")
+    logging.debug(myWallet)
     for item in myWallet:
         token = item.get("token")
         symbol = token.get("symbol")
@@ -478,14 +479,14 @@ def get_realt_token_details_free(realt_token_contractAdress):
         except JSONDecodeError:
             RealT_OfflineTokensList = {
                 "info": {
-                    "last_sync": str(datetime.timestamp(Now_Time - timedelta(weeks=2)))
+                    "last_sync": str(datetime.timestamp(Now_Time - timedelta(days=1)))
                 },
                 "data": {},
             }
 
     # Update offlineTokensList from RealT API only if more than 1 week old
     if float(RealT_OfflineTokensList["info"]["last_sync"]) < datetime.timestamp(
-        Now_Time - timedelta(weeks=1)
+        Now_Time - timedelta(days=1)
     ):
         MyRealT_API_Header = {
             "Accept": "*/*",
@@ -514,16 +515,19 @@ def get_realt_token_details_free(realt_token_contractAdress):
         RealT_OfflineTokensList["info"]["last_sync"] = str(datetime.timestamp(Now_Time))
         with open(RealT_OfflineTokensList_Path, "w") as outfile:
             json.dump(RealT_OfflineTokensList, outfile, indent=4)
-
-    return RealT_OfflineTokensList["data"][realt_token_contractAdress]
-
+    try:
+        return RealT_OfflineTokensList["data"][realt_token_contractAdress]
+    except:
+        print(f"not finding contract {realt_token_contractAdress}")
+        return {}
 
 def get_realtportfolio_value(wallet_address):
-    print(wallet_address)
     myRealT_rentals = json.loads(get_realt_rentals_blockchain(wallet_address))
     myRealT_portfolio_value = 0
     for key in myRealT_rentals:
         token_details_free = get_realt_token_details_free(key)
+        if not token_details_free:
+            continue
         myRealT_portfolio_value = (
             myRealT_portfolio_value
             + myRealT_rentals[key]["balance"] * token_details_free["tokenPrice"]
@@ -637,6 +641,8 @@ def sync_realtproperties_other(session: requests.Session, wallet_address):
             logging.info("Deleting " + myFinary_realT_others[key]["name"])
         else:
             token_details_free = get_realt_token_details_free(key)
+            if not token_details_free:
+                continue
 
             # Handling currency
             logging.debug("UI Display currency: " + myFinary_displaycurrency)
@@ -661,6 +667,8 @@ def sync_realtproperties_other(session: requests.Session, wallet_address):
     for key in myRealT_rentals:
         if key not in myFinary_realT_others:
             token_details_free = get_realt_token_details_free(key)
+            if not token_details_free:
+                continue
 
             logging.info(
                 "add "
